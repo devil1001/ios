@@ -34,6 +34,7 @@ class ViewController: UIViewController {
     @IBAction func resetButtonPressed(_ sender: AnyObject) {
         display.text = "0"
         userStartedTyping = false
+        userSendPoint = false
         calculator.setNumber(number: displayedNumber)
     }
     
